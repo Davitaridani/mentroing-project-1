@@ -1,0 +1,17 @@
+@import "./globals";
+@import "./variables";
+
+.sect-2-home {
+  .images-cover {
+    background: url('../images/image 52.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat; 
+    border-radius: 20px;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}

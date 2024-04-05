@@ -1,0 +1,28 @@
+@import "./globals";
+
+// Font
+$poppins: "Poppins", sans-serif;
+$notoSans: "Noto Sans", sans-serif;
+
+// Colors
+$mainColor: #1A4E8D;
+
+// Green
+$lightGreen200: #F0FCFA;
+$lightGreen400: #9BEFE0;
+
+// Dark
+$dark700: #171A1F;
+
+// Red
+$lightRed200: #FFF3F0;
+$lightRed600: #FF8D6B;
+
+// Yellow
+$lightYellow200: #FFFAE7;
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0;
+  font-family: $notoSans;
+}
