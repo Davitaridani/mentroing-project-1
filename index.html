@@ -7,13 +7,12 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
   <link rel="stylesheet" href="./assets/scss/main.css">
 
-
-  <title>Animals</title>
+  <title>Home - Animals</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="./assets/images/icons/logo-navbar.png" alt="logo" class="img-fluid">
@@ -25,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto gap-4">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./pages/services.html">Services</a>
+            <a class="nav-link" aria-current="page" href="./pages/services.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -41,24 +40,24 @@
           </li>
         </ul>
         <div class="d-flex">
-          <button class="btn btn-primary">Let's Talk</button>
+          <button class="btn-nav">Let's Talk</button>
         </div>
       </div>
     </div>
   </nav>
 
-  <section class="sect-1">
+  <section class="sect-1-home">
     <div class="container">
       <div class="row">
         <div class="col-md-6 d-flex align-items-center">
           <div class="w-75">
             <h1>Pawsitively <br /> Purrfect Care</h1>
-            <p>We provide quality pet care and personalized treatment plans for your pet</p>
+            <p>We provide quality pet care and <br /> personalized treatment plans for your pet</p>
             <a href="#">Make an appointment</a>
           </div>
         </div>
         <div class="col-md-6">
-          <img src="./assets/images/Group 30.png" alt="" />
+          <img src="./assets/images/Group 30.png" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -75,11 +74,13 @@
   <section class="sect-3-home">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 d-flex">
-          <div class="content-left d-flex  align-items-center justify-content-center">
-            <div class="">
-              <h1>Optimal Health for Furry Friends: Comprehensive Veterinary Services</h1>
-              <div class="d-flex align-items-end">
+        <div class="col-md-6 block-content-left">
+          <div class="content-left d-flex ">
+            <div class="d-flex flex-column">
+              <div class="">
+                <h1>Optimal Health for Furry Friends: Comprehensive Veterinary Services</h1>
+              </div>
+              <div class="d-flex">
                 <a href="#">View More</a>
               </div>
             </div>
@@ -87,18 +88,54 @@
         </div>
 
         <div class="col-md-6">
-          <div class="row">
+          <div class="row items-card-left">
             <div class="col-6">
-              fsdfs
+              <div class="card">
+                <div class="card-headers">
+                  <img src="./assets/images/icons/Pets 1.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h3>Physical Exam</h3>
+                  <p>Exercitation culpa velit non desedder</p>
+                  <a href="">View More</a>
+                </div>
+              </div>
             </div>
             <div class="col-6">
-              fsdfs
+              <div class="card">
+                <div class="card-headers">
+                  <img src="./assets/images/icons/Body cream 1.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h3>Skin Care</h3>
+                  <p>Consectetur incididunt esse in eiusmod </p>
+                  <a href="">View More</a>
+                </div>
+              </div>
             </div>
             <div class="col-6">
-              fsdfs
+              <div class="card mb-0">
+                <div class="card-headers">
+                  <img src="./assets/images/icons/Syringe 1.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h3>Pet Vaccination</h3>
+                  <p>Excepteur elit aliqua nostrud nulla</p>
+                  <a href="">View More</a>
+                </div>
+              </div>
             </div>
             <div class="col-6">
-              fsdfs
+              <div class="card mb-0">
+                <div class="card-headers">
+                  <img src="./assets/images/icons/Bone 1.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h3>Pet Nutrition</h3>
+                  <p>Velit tempor duis enim elit cillum adipisicing</p>
+                  <a href="">View More</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -108,36 +145,44 @@
 
   <section class="sect-4-home">
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
-        <img src="./assets/images/Group 13.png" alt="" class="img-fluid">
-        <div class="content-cta text-center">
-          <h1>Join Our Friend Circle</h1>
-          <p>We can't wait to meet our newest BFF</p>
-          <a href="">Locations & Hours</a>
+      <div class="items-cta d-flex justify-content-between">
+        <img src="./assets/images/Group 13.png" alt=""
+          class="img-fluid object-fit-contain d-flex justify-content-start align-items-start">
+        <div class="content-cta text-center justify-content-center d-flex align-items-center">
+          <div class="">
+            <h1>Join Our Friend Circle</h1>
+            <p>We can't wait to meet our newest BFF</p>
+            <a href="">Locations & Hours</a>
+          </div>
         </div>
-        <img src="./assets/images/Group 11.png" alt="" class="img-fluid">
+        <img src="./assets/images/Group 11.png" alt="" class="img-fluid object-fit-contain">
       </div>
     </div>
   </section>
 
-  <footer class="sect-4-home">
+  <footer class="footer">
     <div class="container">
+      <div class="img-footer text-center mb-5">
+        <img src="./assets/images/icons/Container 17.png" alt="" class="img-fluid object-fit-contain">
+      </div>
       <div class="row">
         <div class="col-md-6">
-          <p>Jl. Jend.Sudirman No.260, Jakarta</p>
-          <p>info@gmail.com</p>
-          <p>Copyright © 2024 Example. All rights reserved</p>
+          <div class="content-foot-left">
+            <p>Jl. Jend.Sudirman No.260, Jakarta</p>
+            <p>info@gmail.com</p>
+            <p>Copyright © 2024 Example. All rights reserved</p>
+          </div>
         </div>
         <div class="col-md-6 d-flex justify-content-end">
-          <div class="">
-            <ul class="d-flex gap-4">
+          <div class="content-foot-right">
+            <ul class="d-flex">
               <li><a href="">Services</a></li>
               <li><a href="">About Us</a></li>
               <li><a href="">Locations & Hours</a></li>
               <li><a href="">Blogs</a></li>
               <li><a href="">Contact</a></li>
             </ul>
-            <div class="icons d-flex justify-content-end gap-2">
+            <div class="icons d-flex justify-content-end">
               <img src="./assets/images/icons/Twitter 1.png" alt="" class="img-fluid">
               <img src="./assets/images/icons/Facebook 1.png" alt="" class="img-fluid">
               <img src="./assets/images/icons/LinkedIn 1.png" alt="" class="img-fluid">
