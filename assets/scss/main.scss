@@ -1,10 +1,11 @@
-@use "./globals";
 @use "./variables";
+@use "./globals";
+@use "./navbar";
 @use "./home";
 @use "./services";
+@use "./services-detail";
 @use "./about";
 @use "./contact";
 @use "./appointment";
 @use "./location-hours";
-@use "./services-detail";
 @use "./blog";

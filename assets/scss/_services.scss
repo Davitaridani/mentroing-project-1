@@ -1,2 +1,24 @@
 @import "globals";
 @import "variables";
+
+.sect-2-services {
+  .bg-lightGreen {
+    background-color: $lightGreen200;
+  };
+  .bg-lightRed {
+    background-color: $lightRed200;
+  }
+  .bg-lighYellow {
+    background-color: $lightYellow200;
+  }
+  .bg-lightGreen-300 {
+    background-color: $lightGreen300;
+  }
+}
+
+.sect-3-services {
+  // background-color: $mainColor;
+  // background: linear-gradient(to bottom, #eee 50%, $mainColor 50%);
+  height: 300px;
+  margin-bottom: 200px;
+}
