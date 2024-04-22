@@ -136,26 +136,10 @@ section {
 }
 
 .sect-1-home {
-  padding: 20px 0 20px;
+  background-color: red;
 }
-.sect-1-home p {
-  color: #171A1F;
-}
-.sect-1-home .container .row .col-md-6 h1 {
-  font-size: 52px;
-  color: #1A4E8D;
-  line-height: 1.4;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-.sect-1-home .container .row .col-md-6 p {
-  margin-bottom: 25px;
-}
-.sect-1-home .container .row .col-md-6 a {
-  background-color: #9BEFE0;
-  color: #116B5A;
-  padding: 10px 25px;
-  border-radius: 20px;
+.sect-1-home .container .row h1 {
+  color: yellow;
 }
 
 .sect-2-home .images-cover {
